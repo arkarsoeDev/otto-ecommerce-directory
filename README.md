@@ -18,7 +18,7 @@ It include Laravel api, Front Panel (vuejs), and Admin Panel (vuejs). All of the
    - [otto-ecommerce-api(laravel)](#otto-ecommerce-apilaravel)
    - [otto-ecommerce-api-client(vuejs)](#otto-ecommerce-api-clientvuejs)
    - [otto-ecommerce-api-admin(vuejs)](#otto-ecommerce-api-adminvuejs)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Builtwith](#built-with)
 - [Author](#author)
 
