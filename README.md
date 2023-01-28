@@ -1,7 +1,7 @@
 # Otto Ecommerce
 
 This is the useage guide for otto ecommerce project. Otto ecommerce is three repositories project.
-It include Laravel api, Front Panel (vuejs), and Admin Panel (vuejs). All of them are seperate repository.
+It includes Laravel api, Front Panel (Vuejs), and Admin Panel (Vuejs). All of them are seperate repository.
 
 **Note**
 The project should work properly on chrome. I haven't test all the aspects yet.
@@ -95,12 +95,14 @@ Migrate and seed
 Unzip the [images.zip](https://github.com/arkarsoeDev/images/tree/main/otto-ecommerce), cut uploads folder and paste in public/storage/
 (directory should look like below)
 
+```
 ├── public
 │   ├── storage             
 │   │   ├── uploads
 │   │   └── ...
 │   └── ...
 └── ...
+```
 
 Run the project
 
