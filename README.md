@@ -1,7 +1,11 @@
-# New Day Blog
+# Otto Ecommerce
 
 This is the useage guide for otto ecommerce project. Otto ecommerce is three repositories project.
 It include Laravel api, Front Panel (vuejs), and Admin Panel (vuejs). All of them are seperate repository.
+
+**Note**
+The project should work properly on chrome. I haven't test all the aspects yet.
+I haven't test the project on firefox, so there may be some errors on firefox.
 
 ## 🔗 Links
 
@@ -20,6 +24,7 @@ It include Laravel api, Front Panel (vuejs), and Admin Panel (vuejs). All of the
    - [otto-ecommerce-api-admin(vuejs)](#otto-ecommerce-api-adminvuejs)
 - [Screenshots](#screenshots)
 - [Builtwith](#built-with)
+- [Features](#features)
 - [Author](#author)
 
 ## Run Locally
@@ -87,14 +92,15 @@ Migrate and seed
   php artisan migrate:fresh --seed
 ```
 
-Unzip the images.zip(include in repository), cut thumbnails and uploads folder and paste in public/storage/
+Unzip the [images.zip](https://github.com/arkarsoeDev/images/tree/main/otto-ecommerce), cut uploads folder and paste in public/storage/
 (directory should look like below)
 
-```bash
-  public/
-  -storage/
-  --uploads
-```
+├── public
+│   ├── storage             
+│   │   ├── uploads
+│   │   └── ...
+│   └── ...
+└── ...
 
 Run the project
 
@@ -187,7 +193,7 @@ _______________________________________________________________
 
 _______________________________________________________________
 
-### Summary
+## Summary
 
 ![Alt](/screenshots/front-summary.png "Summary")
 
@@ -205,15 +211,26 @@ _______________________________________________________________
 
 _______________________________________________________________
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Grid
-- Mobile-first workflow
-- Scss
+- [Tailwind](https://tailwindcss.com/) - CSS Framework
 - [Vue](https://vuejs.org/) - JS library
+- [Laravel](https://laravel.com/) - PHP Framework
+- [MySQL](https://www.mysql.com/) - Database Management System
+
+## Features
+
+-products (CRUD) (API)
+-categories (CRUD) (API)
+-users (CRUD) (API)
+-user profile (CRUD) (API)
+-pinia shopping cart
+-stripe payment
+-token based authentication
 
 ## Author
 
