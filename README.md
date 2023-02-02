@@ -226,13 +226,13 @@ _______________________________________________________________
 
 ## Features
 
--products (CRUD) (API)
--categories (CRUD) (API)
--users (CRUD) (API)
--user profile (CRUD) (API)
--pinia shopping cart
--stripe payment
--token based authentication
+- products (CRUD) (API)
+- categories (CRUD) (API)
+- users (CRUD) (API)
+- user profile (CRUD) (API)
+- pinia shopping cart
+- stripe payment
+- token based authentication
 
 ## Author
 
